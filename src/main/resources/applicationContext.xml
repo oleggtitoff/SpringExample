@@ -12,6 +12,9 @@
         <constructor-arg index="0" value="John"/>
         <constructor-arg index="1" value="Smith"/>
         <constructor-arg index="2" value="25"/>
+        <constructor-arg index="3">
+            <value type="ua.training.model.entity.Gender">MALE</value>
+        </constructor-arg>
     </bean>
 
 </beans>

@@ -14,6 +14,7 @@ public class Main {
         System.out.println(user.getName());
         System.out.println(user.getSurname());
         System.out.println(user.getAge());
+        System.out.println(user.getGender());
 
         context.close();
     }
