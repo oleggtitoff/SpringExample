@@ -4,11 +4,13 @@ public class User {
     private String name;
     private String surname;
     private int age;
+    private Gender gender;
 
-    public User(String name, String surname, int age) {
+    public User(String name, String surname, int age, Gender gender) {
         this.name = name;
         this.surname = surname;
         this.age = age;
+        this.gender = gender;
     }
 
     public String getName() {
@@ -23,6 +25,10 @@ public class User {
         return age;
     }
 
+    public Gender getGender() {
+        return gender;
+    }
+
     public void setName(String name) {
         this.name = name;
     }
@@ -33,5 +39,9 @@ public class User {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    public void setGender(Gender gender) {
+        this.gender = gender;
     }
 }
