@@ -11,10 +11,7 @@ public class Main {
 
         User user = context.getBean("user", User.class);
 
-        System.out.println(user.getName());
-        System.out.println(user.getSurname());
-        System.out.println(user.getAge());
-        System.out.println(user.getGender());
+        System.out.println(user.toString());
 
         context.close();
     }
